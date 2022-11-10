@@ -20,7 +20,7 @@ docker run -it -p 8888:8888 jupyter/scipy-notebook
 ```
 - Open the link you see on the screen with your browser, or enter http://localhost:8888 and enter the token
 - Create new notebook
-- Copy and run this example: https://docs.scipy.org/doc/scipy/tutorial/interpolate.html
+- Copy and run the first example from: https://docs.scipy.org/doc/scipy/tutorial/interpolate.html
 - Shutdown container (ctrl+C)
 ```
 docker ps

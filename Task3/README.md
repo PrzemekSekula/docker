@@ -63,7 +63,7 @@ CMD ["/bin/bash", "start.sh"]
 - build your image and run your container. Check how it works.
 ```
 docker build -t task3_app:v1.0 . 
-docker run --rm -it -p 5000:5000 task3_app:v1.0 /bin/bash
+docker run --rm -it -p 5000:5000 task3_app:v1.0
 ```
 - remove your image
 ```
