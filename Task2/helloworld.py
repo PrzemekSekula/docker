@@ -8,7 +8,7 @@ def hello_world():
 
 @app.route('/info')
 def display_info():
-    return 'This is a subpate with additional info.'
+    return 'This is a subpage with additional info.'
 
 if __name__ == '__main__':
     app.run(debug=False,host='0.0.0.0', port=5000)

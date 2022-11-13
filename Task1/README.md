@@ -41,7 +41,7 @@ docker image ls
 - **TO DO: run new jupyter/scipy-notebook container. Do you have your code?**
 - **TO DO: remove your image**
 ```
-Docker run -it –rm jupyter/scipy-notebook /bin/bash
+Docker run -it --rm jupyter/scipy-notebook /bin/bash
 $ls
 $pwd
 $exit
